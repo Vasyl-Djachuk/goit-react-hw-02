@@ -1,0 +1,9 @@
+.friend {
+  display: flex;
+  padding-top: 40px;
+  width: 700px;
+  column-gap: 15px;
+}
+.items {
+  width: calc((100% - 60px) / 5);
+}
