@@ -1,0 +1,13 @@
+.list {
+  display: flex;
+  column-gap: 10px;
+  margin-bottom: 25px;
+}
+.reset {
+  background-color: rgb(201, 150, 150);
+  cursor: pointer;
+}
+.button {
+  background-color: rgb(160, 186, 224);
+  cursor: pointer;
+}
