@@ -23,7 +23,7 @@ const App = () => {
   }, [reviews]);
 
   const totalReviews = Object.values(reviews).reduce((s, v) => (s += v), 0);
-  console.log(reviews);
+
   return (
     <>
       <Description />
