@@ -14,12 +14,14 @@ export const Feedback = ({ reviews, total }) => {
       <li>
         <p>Total: {total}</p>
       </li>
-      <li>
-        <p>
-          Positive:{' '}
-          {Math.round(((reviews.good + reviews.neutral) / total) * 100)}%
-        </p>
-      </li>
+      {total > 0 && (
+        <li>
+          <p>
+            Positive:{' '}
+            {Math.round(((reviews.good + reviews.neutral) / total) * 100)}%
+          </p>
+        </li>
+      )}
     </ul>
   );
 };
